@@ -34,7 +34,7 @@ Wendsjö, Albert. (20026). Reppin' your Constituency? Urban-Rural Differences in
 DOI: (to be added)
 ```
 
-## 📬 Contact
+## Contact
 
 For questions or clarifications, please contact:
 
