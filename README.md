@@ -30,7 +30,7 @@ This repository contains the data, code, and documentation required to replicate
 If you use this repository, please cite:
 
 ```
-Wendsjö, Albert. (20026). Reppin' your Constituency? Urban-Rural Differences in Geographical Representation in Swedish Parliamentary Debates  Political Geography.
+Wendsjö, Albert. (2026). Reppin' your Constituency? Urban-Rural Differences in Geographical Representation in Swedish Parliamentary Debates  Political Geography.
 DOI: (to be added)
 ```
 
