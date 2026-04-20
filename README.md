@@ -14,8 +14,8 @@ This repository contains the data, code, and documentation required to replicate
 ├── code/
 │   ├── 01_data_collection.R
 │   ├── 02_geocoding.R      
-│   ├── 04_descriptive_statistics.R
-│   └── 05_statistical_inference.R
+│   ├── 03_descriptive_statistics.R
+│   └── 04_statistical_inference.R
 │
 ├── outputs/
 │   ├── figures/
