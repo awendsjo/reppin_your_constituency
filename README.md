@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the data, code, and documentation required to replicate the analysis presented in my forthcoming paper in *Political Geography*.
+This repository contains the data, code, and documentation required to replicate the analysis presented in the paper "Reppin' your Constituency? Urban-Rural Differences in Geographical Representation in Swedish Parliamentary Debates" forthcoming in *Political Geography*.
 
 ## Repository Structure
 
