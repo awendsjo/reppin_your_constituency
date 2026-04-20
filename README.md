@@ -8,8 +8,8 @@ This repository contains the data, code, and documentation required to replicate
 
 ```
 ├── data/
-│   ├── raw/              # Original, unprocessed datasets
-│   └── processed/        # Cleaned and analysis-ready data
+│   ├── raw/
+│   └── processed/
 │
 ├── code/
 │   ├── 01_data_collection.R
@@ -18,11 +18,10 @@ This repository contains the data, code, and documentation required to replicate
 │   └── 05_statistical_inference.R
 │
 ├── outputs/
-│   ├── figures/          # Generated plots and visualizations
-│   └── tables/           # Generated tables
+│   ├── figures/
+│   └── tables/
 │
-├── README.md             # Project documentation (this file)
-└── LICENSE               # License for reuse
+└── README.md
 ```
 
 ## Citation
