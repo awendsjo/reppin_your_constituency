@@ -9,6 +9,7 @@ This repository contains the data, code, and documentation required to replicate
 ```
 ├── data/
 │   ├── geotagged_locations.csv # identified places with coordinates
+│   ├── county_measures.csv # county level measures (rurality, population)
 │   └── dataset.csv # main mention level dataset
 │
 ├── code/
