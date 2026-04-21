@@ -12,11 +12,9 @@ This repository contains the data, code, and documentation required to replicate
 │   └── processed/
 │
 ├── code/
-│   ├── 01_data_collection.R
-│   ├── 02_model_training_and_inference.py
-│   ├── 03_geocoding.R     
-│   ├── 04_descriptive_statistics.R
-│   └── 05_statistical_inference.R
+│   ├── 01_geocoding.R     
+│   ├── 02_descriptive_statistics.R
+│   └── 03_statistical_inference.R
 │
 ├── outputs/
 │   ├── figures/
@@ -30,8 +28,7 @@ This repository contains the data, code, and documentation required to replicate
 If you use this repository, please cite:
 
 ```
-Wendsjö, Albert. (2026). Reppin' your Constituency? Urban-Rural Differences in Geographical Representation in Swedish Parliamentary Debates  Political Geography.
-DOI: (to be added)
+Wendsjö, Albert. (2026). Reppin' your Constituency? Urban-Rural Differences in Geographical Representation in Swedish Parliamentary Debates  Political Geography. DOI: (to be added)
 ```
 
 ## Contact
