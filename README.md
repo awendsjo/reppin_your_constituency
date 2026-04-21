@@ -8,8 +8,8 @@ This repository contains the data, code, and documentation required to replicate
 
 ```
 ├── data/
-│   ├── raw/
-│   └── processed/
+│   ├── geotagged_locations.csv # identified places with coordinates
+│   └── dataset.csv # main mention level dataset
 │
 ├── code/
 │   ├── 01_geocoding.R     
