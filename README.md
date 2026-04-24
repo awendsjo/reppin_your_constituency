@@ -9,13 +9,11 @@ This repository contains the data, code, and documentation required to replicate
 ```
 ├── data/
 │   ├── geotagged_locations.csv # identified places with coordinates
-│   ├── county_measures.csv # county level measures (rurality, population)
 │   └── dataset.csv # main mention level dataset
 │
 ├── code/
 │   ├── 01_geocoding.R     
-│   ├── 02_descriptive_statistics.R
-│   └── 03_statistical_inference.R
+│   └── 02_analysis.R
 │
 ├── outputs/
 │   ├── figures/
@@ -38,4 +36,4 @@ For questions or clarifications, please contact:
 
 * Name: Albert Wendsjö
 * Email: ([albert.wendsjo@gu.se](mailto:albert.wendsjo@gu.se))
-* Institution: Department of Political Science
+* Institution: University of Gothenburg, Department of Political Science
