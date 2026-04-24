@@ -9,7 +9,7 @@ This repository contains the data, code, and documentation required to replicate
 ```
 ├── data/
 │   ├── geotagged_locations.csv # identified places with coordinates
-│   └── dataset.csv # main mention level dataset
+│   └── dataset.csv # main dataset used for analysis
 │
 ├── code/
 │   ├── 01_geocoding.R     
