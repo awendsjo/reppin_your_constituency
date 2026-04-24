@@ -8,6 +8,8 @@ This repository contains the data, code, and documentation required to replicate
 
 ```
 ├── data/
+│   ├── geotagged_locations.csv # all identified locations with coordinates
+│   ├── county_rurality.csv # county rurality and population measures
 │   └── dataset.csv # main dataset used for analysis
 │
 ├── code/
