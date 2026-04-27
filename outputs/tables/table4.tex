@@ -1,0 +1,45 @@
+
+\begingroup
+\centering
+\begin{adjustbox}{width = \textwidth, center}
+   \begin{tabular}{lccc}
+      \tabularnewline \midrule \midrule
+      Dependent Variable: & \multicolumn{3}{c}{urban\_rural\_binary}\\
+      Model:                            & (1)             & (2)             & (3)\\  
+      \midrule
+      \emph{Variables}\\
+      Constant                          & -0.0665$^{***}$ & -0.1040$^{***}$ &   \\   
+                                        & (0.0145)        & (0.0261)        &   \\   
+      rural\_pop\_prop                  & 1.286$^{***}$   & 1.252$^{***}$   & 1.247$^{***}$\\   
+                                        & (0.0334)        & (0.0313)        & (0.0286)\\   
+      rural\_pop\_prop\_rep             & 0.0236          &                 & -0.0286\\   
+                                        & (0.0321)        &                 & (0.0286)\\   
+      rural\_born                       &                 & 0.0384$^{***}$  & 0.0301$^{**}$\\   
+                                        &                 & (0.0095)        & (0.0094)\\   
+      is\_representativeRepresentative  &                 & 0.0003          & -0.0060\\   
+                                        &                 & (0.0102)        & (0.0108)\\   
+      age                               &                 & 0.0007          & 0.0006\\   
+                                        &                 & (0.0004)        & (0.0004)\\   
+      genderwoman                       &                 & -0.0163         & -0.0108\\   
+                                        &                 & (0.0092)        & (0.0088)\\   
+      is\_minister                      &                 & 0.0119          & 0.0109\\   
+                                        &                 & (0.0133)        & (0.0114)\\   
+      is\_born                          &                 & 0.0092          & 0.0125\\   
+                                        &                 & (0.0119)        & (0.0118)\\   
+      \midrule
+      \emph{Fixed-effects}\\
+      Year                              &                 &                 & Yes\\  
+      party                             &                 &                 & Yes\\  
+      \midrule
+      \emph{Fit statistics}\\
+      Observations                      & 402,094         & 354,384         & 344,452\\  
+      R$^2$                             & 0.19545         & 0.19330         & 0.20087\\  
+      Within R$^2$                      &                 &                 & 0.18336\\  
+      \midrule \midrule
+      \multicolumn{4}{l}{\emph{Clustered (who \& county-year) standard-errors in parentheses}}\\
+      \multicolumn{4}{l}{\emph{Signif. Codes: ***: 0.001, **: 0.01, *: 0.05}}\\
+   \end{tabular}
+\end{adjustbox}
+\par\endgroup
+
+

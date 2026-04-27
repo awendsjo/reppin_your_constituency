@@ -1,0 +1,65 @@
+
+\begingroup
+\centering
+\begin{adjustbox}{width = \textwidth, center}
+   \begin{tabular}{lcc}
+      \tabularnewline \midrule \midrule
+      Dependent Variable: & \multicolumn{2}{c}{Economy}\\
+                                                                                                                                                     & Robust SE               & Clustered SE \\   
+      Model:                                                                                                                                         & (1)                     & (2)\\  
+      \midrule
+      \emph{Variables}\\
+      relative\_unemployment                                                                                                                         & 0.3145$^{*}$            & 0.3145\\   
+                                                                                                                                                     & (0.1597)                & (0.4162)\\   
+      is\_representativeRepresentative                                                                                                               & -0.0206$^{***}$         & -0.0206$^{*}$\\   
+                                                                                                                                                     & (0.0021)                & (0.0102)\\   
+      rural\_pop\_prop                                                                                                                               & -0.5022$^{***}$         & -0.5022$^{***}$\\   
+                                                                                                                                                     & (0.0240)                & (0.0883)\\   
+      urban\_rural\_bornUrbanBackground                                                                                                              & -0.0038$^{*}$           & -0.0038\\   
+                                                                                                                                                     & (0.0017)                & (0.0061)\\   
+      age                                                                                                                                            & 0.0003$^{***}$          & 0.0003\\   
+                                                                                                                                                     & ($2.53\times 10^{-5}$)  & (0.0002)\\   
+      genderwoman                                                                                                                                    & -0.0031$^{***}$         & -0.0031\\   
+                                                                                                                                                     & (0.0005)                & (0.0038)\\   
+      is\_minister                                                                                                                                   & 0.0093$^{***}$          & 0.0093\\   
+                                                                                                                                                     & (0.0007)                & (0.0102)\\   
+      is\_born                                                                                                                                       & 0.0055$^{***}$          & 0.0055$^{*}$\\   
+                                                                                                                                                     & (0.0006)                & (0.0026)\\   
+      relative\_unemployment $\times$ is\_representativeRepresentative                                                                               & 0.1045                  & 0.1045\\   
+                                                                                                                                                     & (0.2182)                & (0.7078)\\   
+      relative\_unemployment $\times$ rural\_pop\_prop                                                                                               & -0.8649$^{*}$           & -0.8649\\   
+                                                                                                                                                     & (0.3775)                & (1.134)\\   
+      is\_representativeRepresentative $\times$ rural\_pop\_prop                                                                                     & 0.0423$^{***}$          & 0.0423\\   
+                                                                                                                                                     & (0.0052)                & (0.0271)\\   
+      relative\_unemployment $\times$ urban\_rural\_bornUrbanBackground                                                                              & 0.2315                  & 0.2315\\   
+                                                                                                                                                     & (0.1650)                & (0.5218)\\   
+      is\_representativeRepresentative $\times$ urban\_rural\_bornUrbanBackground                                                                    & -0.0007                 & -0.0007\\   
+                                                                                                                                                     & (0.0027)                & (0.0117)\\   
+      rural\_pop\_prop $\times$ urban\_rural\_bornUrbanBackground                                                                                    & -0.0206$^{***}$         & -0.0206\\   
+                                                                                                                                                     & (0.0042)                & (0.0221)\\   
+      relative\_unemployment $\times$ is\_representativeRepresentative $\times$ rural\_pop\_prop                                                     & 0.8420                  & 0.8420\\   
+                                                                                                                                                     & (0.5203)                & (1.828)\\   
+      relative\_unemployment $\times$ is\_representativeRepresentative $\times$ urban\_rural\_bornUrbanBackground                                    & -0.5053                 & -0.5053\\   
+                                                                                                                                                     & (0.2661)                & (0.8658)\\   
+      relative\_unemployment $\times$ rural\_pop\_prop $\times$ urban\_rural\_bornUrbanBackground                                                    & -0.9350$^{*}$           & -0.9350\\   
+                                                                                                                                                     & (0.4037)                & (1.459)\\   
+      is\_representativeRepresentative $\times$ rural\_pop\_prop $\times$ urban\_rural\_bornUrbanBackground                                          & 0.0275$^{***}$          & 0.0275\\   
+                                                                                                                                                     & (0.0069)                & (0.0343)\\   
+      relative\_unemployment $\times$ is\_representativeRepresentative $\times$ rural\_pop\_prop $\times$ urban\_rural\_bornUrbanBackground          & 0.5854                  & 0.5854\\   
+                                                                                                                                                     & (0.6493)                & (2.267)\\   
+      \midrule
+      \emph{Fixed-effects}\\
+      Year                                                                                                                                           & Yes                     & Yes\\  
+      County                                                                                                                                         & Yes                     & Yes\\  
+      \midrule
+      \emph{Fit statistics}\\
+      Observations                                                                                                                                   & 346,362                 & 346,362\\  
+      R$^2$                                                                                                                                          & 0.05845                 & 0.05845\\  
+      Within R$^2$                                                                                                                                   & 0.00562                 & 0.00562\\  
+      \midrule \midrule
+      \multicolumn{3}{l}{\emph{Signif. Codes: ***: 0.001, **: 0.01, *: 0.05}}\\
+   \end{tabular}
+\end{adjustbox}
+\par\endgroup
+
+

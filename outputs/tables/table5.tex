@@ -1,0 +1,44 @@
+
+\begingroup
+\centering
+\begin{adjustbox}{width = \textwidth, center}
+   \begin{tabular}{lcccc}
+      \tabularnewline \midrule \midrule
+      Dependent Variable: & \multicolumn{4}{c}{Economy}\\
+      Model:                                                & (1)            & (2)            & (3)            & (4)\\  
+      \midrule
+      \emph{Variables}\\
+      Constant                                              & 0.1077$^{***}$ & 0.1061$^{***}$ & 0.0726$^{***}$ &   \\   
+                                                            & (0.0030)       & (0.0040)       & (0.0110)       &   \\   
+      relative\_unemployment                                & 0.8648$^{***}$ & 0.5364$^{*}$   & 0.5073$^{*}$   & -0.0591\\   
+                                                            & (0.2071)       & (0.2224)       & (0.2056)       & (0.1306)\\   
+      is\_representative                                    &                & 0.0045         & 0.0025         & 0.0002\\   
+                                                            &                & (0.0034)       & (0.0030)       & (0.0021)\\   
+      relative\_unemployment $\times$ is\_representative    &                & 0.7662$^{*}$   & 0.6979$^{*}$   & 0.6427$^{**}$\\   
+                                                            &                & (0.3249)       & (0.3407)       & (0.2162)\\   
+      age                                                   &                &                & 0.0007$^{**}$  & 0.0003$^{*}$\\   
+                                                            &                &                & (0.0002)       & (0.0002)\\   
+      female                                                &                &                & -0.0137$^{*}$  & -0.0038\\   
+                                                            &                &                & (0.0057)       & (0.0042)\\   
+      is\_minister                                          &                &                & 0.0100         & 0.0065\\   
+                                                            &                &                & (0.0140)       & (0.0107)\\   
+      is\_born                                              &                &                & 0.0069         & 0.0048\\   
+                                                            &                &                & (0.0040)       & (0.0028)\\   
+      \midrule
+      \emph{Fixed-effects}\\
+      Year                                                  &                &                &                & Yes\\  
+      County                                                &                &                &                & Yes\\  
+      party                                                 &                &                &                & Yes\\  
+      \midrule
+      \emph{Fit statistics}\\
+      Observations                                          & 422,298        & 404,519        & 346,362        & 346,146\\  
+      R$^2$                                                 & 0.00502        & 0.00658        & 0.01097        & 0.05795\\  
+      Within R$^2$                                          &                &                &                & 0.00180\\  
+      \midrule \midrule
+      \multicolumn{5}{l}{\emph{Clustered (who \& county-year) standard-errors in parentheses}}\\
+      \multicolumn{5}{l}{\emph{Signif. Codes: ***: 0.001, **: 0.01, *: 0.05}}\\
+   \end{tabular}
+\end{adjustbox}
+\par\endgroup
+
+
